@@ -1,0 +1,28 @@
+```java
+import java.util.PriorityQueue;
+
+class Node{
+    int start;
+    int end;
+    public Node{
+        this.start = start;
+        this.end = end;
+    }
+    @Override
+    public int compareTo(Node node){
+        if(node.start > this.start)
+        return this.end - this.start <= node.end - node.start ? -1 : 1;
+    }
+}
+class Solution {
+    public int solution(int[][] jobs) {
+        int answer = 0. size = jobs.size;
+        PriorityQueue<Node> priorityQueue = new PriorityQueue<Node>();
+        for(int i = 0; i < size; i++){
+
+        }
+        priorityQueue.offer()
+        return answer;
+    }
+}
+```
